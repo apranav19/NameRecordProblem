@@ -1,0 +1,23 @@
+John Doe:867100
+John M. Doe:867100
+Doe, John:867100
+John Mason Doe:867100
+J. M. Doe:867100
+Doe, John Mason:867100
+Sandra Bullock:951561
+Sandra Annette Bullock:951561
+Sandra A. Bullock:951561
+Nicole Kidman:282055
+Nicole M. Kidman:282055
+Kidman, Nicole:282055
+Nicole Mary Kidman:282055
+Tom Cruise:377987
+Leonardo Wilhelm DiCaprio:408828
+Leonardo Dicaprio:408828
+Leonardo W. Dicaprio:408828
+Guido V. Rossum:432670
+G. V. Rossum:432670
+Guido Van Rossum:432670
+Guido Rossum:432670
+Rossum, Guido:432670
+Rossum, Guido Van:432670
