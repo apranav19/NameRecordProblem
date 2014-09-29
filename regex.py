@@ -1,12 +1,20 @@
 import re
 
 def regex(name):
+	'''
+			Regular Expression to Parse Names of the following types
 
-	patterns = ['[\w]+\s[\w]+\s[\w]+',
-				'[\w]+\s[A-Z]{1}\.\s[\w]+',
-				'[A-Z]{1}\.\s[A-Z]{1}\.\s[\w]+',
-				'[\w]+\s[\w]+',
-				'[\w]+']
+			First Middle Last
+			First M. Last
+			F. M. Last
+			First Last
+			First
+	'''
+	patterns = [r'[\w]+\s[\w]+\s[\w]+',
+				r'[\w]+\s[A-Z]{1}\.\s[\w]+',
+				r'[A-Z]{1}\.\s[A-Z]{1}\.\s[\w]+',
+				r'[\w]+\s[\w]+',
+				r'[\w]+']
 
 	first_middle_last = re.compile(patterns[0])
 	first_m_last = re.compile(patterns[1])
@@ -26,5 +34,5 @@ def regex(name):
 		return 4
 
 if __name__ =='__main__':
-	print(regex("J. D. Mason"))
+	print(regex("John Mason"))
 
