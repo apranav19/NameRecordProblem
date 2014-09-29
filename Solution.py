@@ -18,10 +18,10 @@ class NameRecorder:
 			name = self.normalize_name(name)
 
 		if ssn in self.records:
-			if name not in set(self.records[ssn]):
-				self.records[ssn].append(name)
+			self.records[ssn].add(name)
 		else:
-			self.records[ssn] = [name]
+			self.records[ssn] = set()
+			self.records[ssn].add(name)
 
 	'''
 		Given a name of the format: <Last Name>, <First Name> <Middle>
